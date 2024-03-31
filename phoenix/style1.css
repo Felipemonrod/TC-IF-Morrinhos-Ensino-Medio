@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body {
+    margin: 0px;
+    background-color: #f0f0f0;
+}
+
+/*página azul*/
+
+#pt_01,#end{
+    background-color: #a1d4e2 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 660px;
+    width: 100%;
+    position: relative;
+}
+
+#end{
+    height: 250px;
+}
+
+#pt_01{
+    background-image: url('imgs\\imagem_fundo.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+#text {
+    text-align: center;
+}
+
+#text>h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 68px;
+    margin-bottom: 0;
+}
+
+#text>p {
+    border: 1px solid black;
+    border-radius: 25PX;
+    padding: 2px;
+}
+
+/*sobre o site*/
+#sobre {
+    margin-top: 10%;
+    margin-left: 9%;
+    width: 50%;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#info {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.faux_btn {
+    text-align: center;
+    border: #1794ac solid 2px;
+    border-radius: 25px;
+    width: 120px;
+    height: 50px;
+    font-size: 12px;
+    text-indent: 0px;
+}
+
+.clear {
+    clear: both;
+}
+
+#container_prog {
+    position: absolute;
+    right: 0px;
+    width: 61%;
+    height: auto;
+    margin-top: -5%;
+    overflow: hidden;
+    display: flex;
+    justify-content: right;
+}
+
+#programando {
+    width: 58%;
+    height: 58%;
+}
+
+/*perfil de conclusão*/
+#pt_03 {
+    margin-left: 45%;
+    margin-right: 5%;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+#Perfil {
+    color: #1794ac;
+    margin-left: 15%;
+    text-align: right;
+    text-indent: 0%;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+table {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#competencias p {
+    text-align: center;
+    border: #1794ac solid 2px;
+    border-radius: 25px;
+    height: 28px;
+    margin: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-indent: 5px;    
+}
+
+
+tr {
+    display: block;
+}
+
+#container_page {
+    position: absolute;
+    left: 0px;
+    width: 40%;
+    height: auto;
+    margin-top: -14.9%;
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+}
+
+#pagina {
+    width: 85%;
+    height: 85%;
+}
+
+#Ementario {
+
+    color: #1794ac;
+    margin-top: 50px;
+    margin-left: 77px;
+}
+
+.titulo {
+    color: #1794ac;
+    text-indent: 80px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.subtitulo {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 40px;
+    margin-left: 60px;
+}
+
+/*Area de Atuação*/
+#areas{
+    width: 75%;
+    text-indent: 0%;
+    margin-left: 180px;
+
+}
+
+#areas tr {
+    padding: 10px;
+}
+
+#areas td {
+    padding-right: 60px;
+}
+
+#areas h3 {
+    color: #1794ac;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#areas p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.img_area{
+    width: 170px ;
+    height: auto;
+}
+
+/*EMENTARIO*/
+#container_anos {
+    display: table;
+    border-spacing: 65px;
+    margin-left: 0%;
+    width: 100%;
+}
+
+.ano {
+    position: relative;
+    display: table-cell;
+}
+
+.dot {
+    height: 140px;
+    width: 140px;
+    background-color: #1794ac;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: -77px;
+}
+
+.dot p {
+    font-size: 25px;
+    padding-top: 30px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.list {
+    border: #1794ac 1px solid;
+    border-radius: 10%;
+    height: 260px;
+    width: auto;
+}
+
+.list ul {
+    height: 175px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.list li{
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #1794ac;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #137386;
+}
+
+p a{
+    color:black
+}
+
+p a:hover{
+color: black; }
+
+.interior {
+    position: absolute;
+    bottom: 0%;
+}
+
+/*PROFESSORES*/
+#container_professor{
+    border-spacing: 30px;
+    margin-left: 0%;
+    width: 90%;
+    overflow-x: scroll;
+    margin-left: 85px;
+    margin-right: 85px;
+    scrollbar-color: green;
+}
+
+.professor{
+    border: solid 1.5px #1794ac;
+    border-radius: 30px;
+    height: 310px;
+    text-align: center;
+    display: table-cell;
+}
+
+.professor p{
+    width: 340px;
+}
+
+.professor img{
+    height: 95px;
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 100%;
+    margin-left: 120%;    
+}
+
+.img_re{
+    height: 100px;
+    width:100px;
+}
+
+.nome_professor{
+    color: #1794ac;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.mail_professor{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: -25px;
+}
+
+.professor button{
+    width: 190px;
+    height: 45px;
+    text-align: center;
+    border: #1794ac solid 1.5px;
+    border-radius: 30px;
+}
+
+.link{
+    padding: 10px 60px;
+    color: #1794ac;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.professor button:hover > .link {
+    color: #f0f0f0;
+    text-decoration: underline;
+}
+
+
+.professor button:hover{
+    background-color: #1794ac;
+    border: #f0f0f0 solid 2px;
+}
+ 

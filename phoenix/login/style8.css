@@ -1,0 +1,14 @@
+.alert{
+    position: absolute;
+    top: 53.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .alert .erro{
+    color: rgb(167, 60, 60);
+  }
+  
+  .alert .sucesso{
+    color: #1794ac;
+  }

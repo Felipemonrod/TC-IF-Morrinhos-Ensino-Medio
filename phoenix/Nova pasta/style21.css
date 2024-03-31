@@ -1,0 +1,288 @@
+body {
+    margin: 0px;
+    background-color: #f0f0f0;
+}
+
+#back_btn{
+    background-color: #1794ac;
+    border: solid 2px black;
+    border-radius: 25%;
+    position: fixed;
+    top:10px;
+    left:10px;
+}
+
+#back_btn a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#back_btn:hover{
+    border:solid 2px white;
+}
+
+#back_btn:hover > a {
+    color: black;
+}
+
+
+/*página azul*/
+#pt_01,
+#end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 660px;
+    width: 100%;
+    position: relative;
+}
+
+#pt_01{
+    background-image: url('imgs\\imagem_fundo.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+#bola01{
+    position: absolute;
+    left: 37%;
+    top:-8%;
+    width: 15%;
+    height: auto;
+}
+
+#bola02{
+    position: absolute;
+    right:0%;
+    top:11%;
+    width: 17%;
+    height: auto;
+}
+#bola03{
+    position: absolute;
+    left: 11.5%;
+    bottom: 10%;
+    width: 11%;
+    height: auto;
+}
+#bola04{
+    position: absolute;
+    right: 19%;
+    bottom:15%;
+    width: 9%;
+    height: auto;
+}
+#seta {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+#text {
+    text-align: center;
+}
+#text>h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 68px;
+    margin-bottom: 0;
+}
+#text>p {
+    border: 1px solid black;
+    border-radius: 25PX;
+    padding: 2px;
+}
+
+/* Ementario */
+#Ementario {
+    color: #1794ac;
+    margin-top: 50px;
+    margin-left: 77px;
+}
+
+#container_anos {
+    display: table;
+    border-spacing: 65px;
+    margin-left: 0%;
+    width: 100%;
+}
+
+.ano {
+    position: relative;
+    display: table-cell;
+}
+
+.dot {
+    height: 158px;
+    width: 158px;
+    background-color: #1794ac;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: -77px;
+}
+
+.dot p {
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.list {
+    border: #1794ac 1px solid;
+    border-radius: 10%;
+    height: 350px;
+    width: auto;
+}
+
+.list ul {
+    height: 240px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.list li {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #1794ac;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #137386;
+}
+
+p a{
+    color:black
+}
+
+p a:hover{
+color: black; }
+
+.interior {
+    position: absolute;
+    bottom: 0%;
+}
+
+
+/*sobre materias*/
+.titulo {
+    color: #1794ac;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.subtitulo {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 40px;
+    margin-left: 60px;
+}
+
+.materia_esquerda {
+    margin-left: 7%;
+    margin-top: 7%;
+    width: 55%;
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.faux_btn {
+    text-align: center;
+    border: #1794ac solid 2px;
+    border-radius: 25px;
+    width: 120px;
+    height: 50px;
+    font-size: 15px;
+    text-indent: 0px;
+    font-weight: bold;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.container_img_E {
+    position: absolute;
+    right: 0px;
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: right;
+    margin-right: 5%;
+}
+
+.container_img_D {
+    position: absolute;
+    left: 0px;
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    margin-left: 5%;
+}
+
+#materias img {
+    width: 100%;
+    height: 100%;
+}
+
+.materia_direita {
+    margin-left: 45%;
+    margin-right: 5%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+.titulo2 {
+    color: #1794ac;
+    font-size: 45px;
+    margin-left: 5%;
+    text-align: right;
+    text-indent: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.divisoria_anos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.div_anos{    
+    height: 230px;
+    width: 230px;
+    background-color: black;
+    color: #137386;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;}
+
+.div_anos p{
+font-size: 35px;
+padding-top: 25%;
+font-family: Arial, Helvetica, sans-serif;}

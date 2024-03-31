@@ -1,0 +1,86 @@
+body {
+    background: #c5d8e4;
+    font-family: arial, sans-serif;
+}
+h1 {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+}
+form {
+    width: 63%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+td {
+    padding: 2px 10px 2px 0;
+}
+span {
+    width: 700px;
+    padding-right: 5px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: right;
+   
+}
+input[type=text],
+select {
+    width: 620px;
+    height: 38px;
+    margin-top: 10px;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 38px;
+    border-radius: 2px;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+.botoes {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.botao-voltar {
+    width: 30%;
+    margin: 0 10px;
+    padding: 10px 0;
+    color: #1794ac;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #1794ac;
+    transition: background-color 200ms ease-in-out, color 200ms ease-in-out, border 200ms ease-in-out;
+}
+.botao-enviar {
+    width: 30%;
+    margin: 0 10px;
+    padding: 10px 30px;
+    color: #1794ac;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #1794ac;
+    background-color: #fff;
+    transition: background-color 200ms ease-in-out, color 200ms ease-in-out, border 200ms ease-in-out;
+}
+.botao-voltar:hover {
+    color: #fff;
+    border: 1px solid transparent;
+    background-color: #1794ac;
+}
+.botao-enviar:hover {
+    color: #fff;
+    border: 1px solid #1794ac;
+    background-color: #1794ac;
+}

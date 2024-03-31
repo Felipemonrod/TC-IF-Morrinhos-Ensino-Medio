@@ -1,0 +1,138 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #c5d8e4;
+    height: 100vh;
+    overflow: hidden;
+}
+.back {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    border: 2px solid #1794ac;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+}
+.back h1 {
+    text-align: center;
+    padding: 13px 0 20px;
+    margin: 0;
+    border-bottom: 1px solid silver;
+    color: #1794ac;
+    font-size: 26px;
+}
+.back form{
+    padding: 0 20px 20px;
+    box-sizing: border-box;
+}
+form .txt{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+  }
+  .txt input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    font-family: arial, sans-serif;
+  }
+  .txt label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+  }
+  .txt span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #2691d9;
+    transition: .5s;
+    font-family: arial, sans-serif;
+  }
+  .txt input:focus ~ label,
+  .txt input:valid ~ label{
+    top: -5px;
+    color: #2691d9;
+  }
+  .txt input:focus ~ span::before,
+  .txt input:valid ~ span::before{
+    width: 100%;
+  }
+  .pass{
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+  }
+  input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #2691d9;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+  }
+  input[type="submit"]:hover{
+    border-color: #2691d9;
+    transition: .5s;
+  }
+
+
+.button { 
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}    
+    
+.class-for-buttons {
+    background-color: #fff;
+    border: 1px solid #1794ac;
+    color: #1794ac;
+    padding: 10px 0px;
+    margin: 4px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 47%;
+    transition: background-color 200ms ease-in-out, color 200ms ease-in-out, border 200ms ease-in-out; cursor: pointer;
+}
+    
+.class-for-buttons:hover {
+    background-color: #1794ac;
+    border: 1px solid transparent;
+    color: #fff;
+}
+
+.alert{
+  position: absolute;
+  top: 54.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.alert .erro{
+  color: rgb(167, 60, 60);
+}
+
+.alert .sucesso{
+  color: #1794ac;
+}

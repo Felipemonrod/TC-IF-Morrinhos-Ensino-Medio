@@ -1,0 +1,27 @@
+body {
+    height: 100%;
+    background: #c5d8e4;
+    font-family: arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.botao-voltar {
+    padding: 10px 30px;
+    color: #1794ac;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #1794ac;
+    background-color: #fff;
+    transition: background-color 200ms ease-in-out, color 200ms ease-in-out, border 200ms ease-in-out;
+}
+.botao-voltar:hover {
+    color: #fff;
+    border: 1px solid transparent;
+    background-color: #1794ac;
+}

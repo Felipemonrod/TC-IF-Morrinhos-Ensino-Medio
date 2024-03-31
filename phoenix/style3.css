@@ -1,0 +1,199 @@
+/* Final */
+#end{
+    background-color: rgb(30, 33, 36) ;
+	position: relative;
+	text-align: center;
+    height: 120px;
+	width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#end_margem {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#end_margem {
+	color:white;
+	font-size: 14px;
+}
+.button {
+	background-color:#ffffff;
+	border-radius:19px;
+	display:inline-block;
+	cursor:pointer;
+	color:#1794ac;
+	font-size:14px;
+	font-weight:bold;
+	padding:9px 24px;
+	text-decoration:none;
+}
+.button:hover {
+	background-color:#f6f6f6;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+
+.clear {
+    clear: both;
+}
+
+/* menu */
+.menu {
+	width: 100%;
+    height: 45px;
+	background: #f5f3f3;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+    display: block;
+}
+
+.menu ul {
+	text-align: right;
+	display: flex;
+	justify-content: right;
+	padding: 0px 20px;
+    list-style-type: none;
+    
+}
+
+.menu a {
+	padding: 12px 20px;
+	text-decoration: none;
+	color: rgb(10, 10, 10);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu a:hover {
+
+    text-decoration: none;
+	color: #f0f0f0;
+    background-color: #137386;
+}
+
+/* sub menu */
+.menu ul ul{
+	text-align: center;
+	display: none;
+    position: absolute;
+	justify-content: center;
+    margin-top: 0.8%;
+    width: 65px;
+ 
+}
+
+.menu ul li:hover ul{
+    display: block;
+    
+}
+.menu ul li:hover ul li{
+    padding: 5px;
+}
+.menu ul ul {
+    width: 105px;
+    right: 0px;
+}
+.submenu{
+    background-color: #f5f3f3;
+}
+.menu ul ul li a{
+    display: block;
+}
+
+/* /// */
+
+#bola01{
+    position: absolute;
+    left: 43%;
+    top:0%;
+    width: 14%;
+    height: auto;
+    animation: rodarmetade 10s infinite alternate linear;
+}
+
+#bola02{
+    position: absolute;
+    right:0%;
+    top: 23%;
+    width: 12.6%;
+    height: auto;
+    animation: rodarmeia 15s infinite alternate linear;
+}
+
+#bola03{
+    position: absolute;
+    left: 10%;
+    bottom: 6%;
+    width: 10%;
+    height: auto;
+    animation: rodar 15s infinite linear;
+
+}
+#bola04{
+    position: absolute;
+    right: 20.5%;
+    bottom: 9%;
+    width: 7%;
+    height: auto;
+    animation: rodar 15s 0.7s infinite reverse linear;
+
+}
+
+#seta {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+@keyframes rodar{
+	0% {
+		transform: rotate(0);
+		transform-origin: 40% 0;
+	}
+
+	100% {
+		transform: rotate(360deg);
+		transform-origin: 60% 0;
+	}
+}
+
+@keyframes rodarmeia{
+	0% {
+		transform: rotate(0);
+		transform-origin: 40% 0;
+	}
+
+	50% {
+		transform: rotate(130deg);
+		transform-origin: 60% 0;
+	}
+
+    100% {
+		transform: rotate(0);
+		transform-origin: 40% 0;
+	}
+}
+
+@keyframes rodarmetade{
+	0% {
+		transform: rotate(70deg);
+		transform-origin: 40% 0;
+	}
+
+	50% {
+		transform: rotate(-70deg);
+		transform-origin: 60% 0;
+	}
+
+    100% {
+		transform: rotate(70deg);
+		transform-origin: 40% 0;
+	}
+}
